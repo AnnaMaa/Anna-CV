@@ -1,0 +1,124 @@
+.project {
+    display: flexbox;
+   box-sizing: border-box black;
+    width: 1650px;
+    border-style: solid;
+}
+
+.project__header {
+    background-color: #782221;
+    display: block ;
+    justify-content:block;
+    padding-bottom: 30px;
+}
+
+.project__header-item {
+    text-align: center;
+    color:white
+}
+
+.project__header-item-photo{
+    box-shadow: 5px 5px 5px 5px #9d4b49  ;
+    border: 3px solid#782221 ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    width:70px;
+    transition: transform .1s;
+}
+
+.project__header-item-photo:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.project__contact {
+    height: 100px;
+    background-color: #2c1d27;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.project__skills{
+    flex-basis:auto;
+    display: flex;
+
+}
+
+.project__skills-softskill{
+    flex-basis: 30%;
+    background-color:  #782221;
+    margin-right: 20%;
+
+    
+
+}
+
+h3{
+    background-color: #dbc2a4;
+}
+
+h3:hover{
+    background-color: #782221;
+}
+
+p{
+color:white;
+justify-content:center
+}
+
+.project__language{
+color:white
+}
+
+.project__hobbies{
+color:white
+}
+
+.project__skills-hardskill{
+    background-color: white;
+    flex-basis: 70%;
+    margin-right: 1%;
+    margin-left: 2%;
+    
+   
+   p{
+        background-color: #dbc2a4;
+        
+
+    }
+    
+
+}
+
+
+.project__footer{
+     
+    background-color: #782221;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 1em;
+    justify-content: center;
+      
+    img{
+        width: 50px;
+    }
+    color:white;
+    }
+
+    
+
+
+
+
+
+
+
+
+
