@@ -51,6 +51,7 @@
 .project__skills-softskill {
     flex-basis: 20%;
     background-color:  #782221;
+    padding-right: 3%;
 
     h3 {
         background-color: #dbc2a4;
